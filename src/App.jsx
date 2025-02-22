@@ -6,7 +6,7 @@ function App() {
 
     const fetchLottoNumbers = async () => {
         try {
-            const response = await fetch("https://lotto-app-7qdz.onrender.com");
+            const response = await fetch("https://lotto-app-7qdz.onrender.com/lotto");
             const data = await response.json();
             setNumbers(data.numbers);
         } catch (error) {
