@@ -67,3 +67,20 @@ button:hover {
   }
 }
 
+/* 지난주 로또 번호 스타일 */
+.last-lotto {
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 2px solid #ddd;
+}
+
+.last-lotto h2 {
+  font-size: 18px;
+  color: #444;
+}
+
+.bonus-number {
+  font-size: 18px;
+  font-weight: bold;
+  color: #e74c3c;
+}
