@@ -18,6 +18,7 @@ body {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
   width: 90%;
   max-width: 400px;
+  margin: auto; /* 중앙 정렬을 위한 추가 코드 */
 }
 
 /* 제목 */
@@ -53,16 +54,26 @@ button:hover {
 
 /* 모바일 반응형 */
 @media (max-width: 480px) {
+  body {
+    display: block; /* 플렉스 해제 */
+  }
+
+  .container {
+    width: 95%;
+    max-width: 350px;
+    margin: 20px auto; /* 위아래 여백 추가 */
+  }
+
   h1 {
-      font-size: 20px;
+    font-size: 20px;
   }
 
   button {
-      font-size: 14px;
-      padding: 10px 16px;
+    font-size: 14px;
+    padding: 10px 16px;
   }
 
   .lotto-numbers {
-      font-size: 18px;
+    font-size: 18px;
   }
 }
